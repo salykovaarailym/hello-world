@@ -1,0 +1,162 @@
+body, table,tr,td,div,ul,li,img,a,h1,th,input,form{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#vmenu {
+    margin: 0;
+    padding: 0;
+    width: 980px;
+    height: 68px;
+    background-color: #eebf40;
+}
+#vmenu li {
+    float: left;
+    padding-top:5px;
+    padding-left: 15px;
+    text-decoration: none;
+}
+
+    #sheet{
+        width: 580px;
+        padding: 15px;
+    }
+    #sheet1{
+        width: 580px;
+        height: 10px;
+        background-color: aliceblue;
+    }
+    #sheet2{
+        width: 580px;
+        height: auto;
+        background-color: white;
+    }
+    #sheet3{
+        width: 580px;
+        height: 10px;
+        background-color: aliceblue;
+    }
+    .h1_opisan{
+        width: 530px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 25px;
+        font-family: verdana, arial,serif;
+        font-style: italic;
+        font-weight: bold;
+        line-height: 40px;
+        color: red;
+    }
+    .div_opisan{
+        text-decoration: none;
+        font-size: 18px;
+        font-family: verdana, arial,serif;
+        font-style: normal;
+        font-weight: normal;
+        line-height: 22px;
+        color: #000066;
+        width: 530px;
+    
+        white-space: normal;
+        text-align: justify;
+    }
+    .left_b  {
+        padding-top: 10px;
+        padding-bottom: 20px;
+        width:200px;
+    }
+    .left_b img{
+        border: #000066 6px double;
+    }
+    .left_b h1 {
+        width: 200px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 30px;
+        font-family: verdana, arial,serif;
+        font-style: normal;
+        font-weight: bold;
+        line-height: 50px;
+        color:#000066;
+    }
+    .left_b img:hover{
+        border: red 6px double;
+    }
+    .left_b h1:hover {
+        color:red;
+    }
+
+
+    .right_b  {
+        padding-top: 10px;
+        padding-bottom: 20px;
+        width:200px;
+    }
+
+    .right_b h1 {
+        width: 200px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 20px;
+        font-family: verdana, arial,serif;
+        font-style: normal;
+        font-weight: bold;
+        line-height: 30px;
+        color:#000066;
+        white-space: nowrap;
+    }
+    .left_b img{
+        border: #000066 6px double;
+    }
+
+
+    #container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+      }
+      #container div {
+        width: 100px;
+        height: 50px;
+      }
+      #container div  a{
+          text-decoration: none;
+      }
+      #zakaz td, #zakaz th, #zakaz input {
+          white-space: nowrap;
+          text-decoration: none;
+          font-size: 15px;
+          font-family: Verdana, arial,serif;
+          font-style:normal;
+          line-height: 15px;
+          color:#000066;
+      }
+      #zakaz th {
+          font-weight: bold;
+          color:#006600;
+      }
+      #zakaz tr {
+          height: 35px;
+      }
+      #zakaz td, #zakaz th {
+        width: 260px;
+        vertical-align: middle;
+        text-align: center;
+        border: #000066 1px solid;
+      }
+
+      #zakaz input{
+        font-weight: bold;
+        color:red;
+        width: 200px;
+        height: 25px;
+        border: #006600 1px solid;
+        background-color: white;
+        padding: 3px;
+      }

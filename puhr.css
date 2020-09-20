@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+    padding: 0;
+         width: 100%;
+         height: 100%;
+}
+
+#vmenu {
+    margin: 0;
+    padding: 0;
+    width: 980px;
+    height: 68px;
+    background-color: #eebf40;
+}
+#vmenu li{
+ float: left;
+ padding-top:5px;
+ padding-left: 15px;
+ text-decoration: none;
+}
+#sheet{
+    width: 580px;
+    padding: 15px;
+}
+#sheet1{
+    width: 580px;
+    height: 10px;
+    background-color: aliceblue;
+}
+#sheet2{
+    width: 580px;
+    height: auto;
+    background-color: white;
+}
+#sheet3{
+    width: 580px;
+    height: 10px;
+    background-color: aliceblue;
+}
+.h1_opisan{
+width: 530px;
+text-align: center;
+text-decoration: none;
+font-size: 25px;
+font-family: verdana, arial,serif;
+font-style: italic;
+font-weight: bold;
+line-height: 40px;
+color:red;
+
+}
+.div_opisan{
+text-decoration: none;
+font-size: 18px;
+font-family: verdana, arial,serif;
+font-style: normal;
+font-weight: normal;
+line-height: 22px;
+color: #000066;
+width: 530px;
+
+white-space: normal;
+text-align: justify;
+}
+.left_b {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    width:200px;
+}
+.left_b img {
+    border: blue 6px double;
+
+}
+.left_b h1 {
+    width: 200px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: verdana, arial,serif;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 50px;
+    color: blue;
+    white-space: nowpar;
+}
+.left_b img:hover{
+    border: red 6px double;
+}
+.right_b h1 {
+    width: 200px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: verdana, arial,serif;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 30px;
+    color:#000066;
+    white-space: nowrap;
+}
+.left_b img{
+    border: #000066 6px double;
+}
